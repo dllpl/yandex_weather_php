@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Задача №1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <div class="card mt-5">
+        <div class="card-body">
+            <h2 class="card-title">Задание №1. Отображение динамических данных</h2>
+            <div class="card-text">
+                <span>Описание:</span>
+                <p>
+                    Создать страницу на которой выводится текущая температура в Мурманске
+                    (запрос из php). Работа с API какого-либо сервиса, например: https://tech.yandex.ru/weather/.
+                </p>
+            </div>
+            <div class="card-text mt-3">
+                <span>Решение:</span>
+                <ul>
+                    <li>Выбранный город: <strong><?php echo $city ?></strong></li>
+                    <li>Фактическая температура: <strong><?php echo $temp_fact ?>°С</strong></li>
+                    <li>Ощущается как: <strong><?php echo $temp_feels_like ?>°С</strong></li>
+                    <li>Ссылка на Яндекс.Погоду для проверки: <a href="<?php echo $link ?>"
+                                                    target="_blank"><strong><?php echo $link ?></strong></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
