@@ -5,6 +5,6 @@
     <p>Создать страницу на которой выводится текущая температура в Мурманске (запрос из php). Работа с API какого-либо сервиса, например: https://tech.yandex.ru/weather/.</p>
 </div>
 <div>
-    <span>Решения:</span>
+    <span>Решение:</span>
     <p>Доступно по ссылке: <a href="https://first.scordata.ru" target="_blank">first.scordata.ru</a></p>
 </div>
